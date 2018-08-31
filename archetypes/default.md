@@ -1,6 +1,11 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
 draft: true
+slug:  ""
+date:  {{ .Date }}
+title: "{{ replace .Name "-" " " | title }}"
+categories:
+- Development
+- Business
+tags:
+isCJKLanguage: true
 ---
-

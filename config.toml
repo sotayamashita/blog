@@ -15,8 +15,3 @@ showLatestPosts=false
 
 # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 iconFont = "font-awesome"
-
-[Social]
-twitter="https://www.twitter.com/sota0805"
-github="https://www.github.com/sotayamashita"
-linkedin="https://www.linkedin.com/in/sotayamashita/"
