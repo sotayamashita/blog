@@ -1,17 +1,38 @@
 baseURL = "https://samyamashita.netlify.com/"
 languageCode = "en-us"
-title = "👋 Hi, there"
-theme="cactus-plus"
+title = "console.log(inMyHead)"
+theme = "cactus-plus"
+googleAnalytics = "UA-79191761-1"
+# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
+hasCJKLanguage=false
 
 [Params]
 Author="Sam Yamashita"
+bio = "Thoughts on development, design and business 🦄"
 
-twitter = "@sota0805"
+enableRSS = true
+enableToc = true
 
-enableTwitterCard=true
+enableDisqus = false
+disqusShortname = ""
 
-# Disable to show latest posts in single page
-showLatestPosts=false
+enableSummary = false
+# Set the value to true if use description in post front matter replace content summary
+useDescriptionReplaceSummary = false
+
+enableGoogleAnalytics = true
+enableBaiduAnalytics = false
+
+enableTwitterCard = true
+# The url for twitter card image, default is avatar.png in static/images directory
+twitterCardImage = ""
+
+# show latest posts in single page
+showLatestPosts = true
+readMore = "Latest posts"
+
+# Share
+enableShare = false
 
 # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 iconFont = "font-awesome"

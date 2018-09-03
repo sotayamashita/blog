@@ -924,6 +924,7 @@ a.symbol:hover {
 }
 .page-tags ul li a {
     color: #8a8a8a;
+    text-transform:lowercase;
 
 }
 .page-tags ul li a span {
