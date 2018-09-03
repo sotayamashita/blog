@@ -32,3 +32,6 @@ isCJKLanguage: true
 - [Agile Testing Days USA](https://agiletestingdays.us/)
   - 主催：[trendig technology services Gmbh](https://trendig.com/) && [TechWell](https://www.techwell.com/)
   - 対象：実務者
+- [TestBash Conference](https://www.ministryoftesting.com/testbash)
+  - 主催：[Ministry of Testing](https://www.ministryoftesting.com/)
+  - 対象：エンジニア、企業の実務者
