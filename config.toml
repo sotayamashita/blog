@@ -1,4 +1,4 @@
-baseURL = "https://samyamashita.netlify.com/"
+baseURL = "https://blog.samyamashita.com/"
 languageCode = "en-us"
 title = "console.log(inMyHead)"
 theme = "cactus-plus"
