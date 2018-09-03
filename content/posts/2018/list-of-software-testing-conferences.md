@@ -35,3 +35,6 @@ isCJKLanguage: true
 - [TestBash Conference](https://www.ministryoftesting.com/testbash)
   - 主催：[Ministry of Testing](https://www.ministryoftesting.com/)
   - 対象：エンジニア、企業の実務者
+- [Selenium Conference](https://www.seleniumconf.com/)
+  - 主催：N/A
+  - 対象：エンジニア
