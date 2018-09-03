@@ -1,27 +1,16 @@
 ---
 draft: false
-slug:  "get-insight-from-conferences"
+slug:  "list-of-software-testing-conferences"
 date:  2018-09-03T08:25:40+09:00
-title: "カンファレンスから業界について知る"
+title: "Software Testing 主要カンファレンス一覧"
 categories:
 - development
-- business
 tags:
 - software-testing
 - conference
-- deep-dive
 isCJKLanguage: true
 ---
 
-## はじめに
-未知の業界について詳しくなるための方法の一つに主要なカンファレンスについて調べるというものがあります。特にカンファレンスの以下の点から業界のリーダーや最新の動向などについて知ることができます：
-
-- 発表者
-- 発表内容
-- ワークショップの内容
-- スポンサー企業
-
-## Software Testing 主要カンファレンス一覧
 - ISSTA (International Symposium on Software Testing and Analysis)
   - 主催：[ACM](https://www.acm.org/) (Association for Computing Machinery)
   - 対象：研究者、企業の実務者
