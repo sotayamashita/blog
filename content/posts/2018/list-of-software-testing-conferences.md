@@ -8,6 +8,7 @@ categories:
 tags:
 - software-testing
 - conference
+- awesome
 isCJKLanguage: true
 ---
 
@@ -40,6 +41,10 @@ isCJKLanguage: true
   - 主催：[TestTalks](https://joecolantonio.com/testtalks/)
 - [SourceCon](https://saucecon.com/)
   - 主催：[Sauce Labs](https://saucelabs.com/)
+
+## 関連記事
+
+- [Software Testing 主要 Podcasts 一覧](./posts/2018/list-of-software-testing-podcasts)
 
 ## 参考資料
 
