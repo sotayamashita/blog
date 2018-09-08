@@ -20,4 +20,4 @@ isCJKLanguage: true
 
 ## 関連記事
 
-- [Software Testing 主要カンファレンス一覧](./posts/2018/list-of-software-testing-conferences/)
+- [Software Testing 主要カンファレンス一覧](/posts/2018/list-of-software-testing-conferences/)

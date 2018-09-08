@@ -44,7 +44,7 @@ isCJKLanguage: true
 
 ## 関連記事
 
-- [Software Testing 主要 Podcasts 一覧](./posts/2018/list-of-software-testing-podcasts)
+- [Software Testing 主要 Podcasts 一覧](/posts/2018/list-of-software-testing-podcasts)
 
 ## 参考資料
 
