@@ -4,8 +4,8 @@ slug:  ""
 date:  {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
 categories:
-- Development
-- Business
+- development
+- business
 tags:
 isCJKLanguage: true
 ---
