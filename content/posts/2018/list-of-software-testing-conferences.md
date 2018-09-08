@@ -11,30 +11,37 @@ tags:
 isCJKLanguage: true
 ---
 
+## アカデミック系
+
 - ISSTA (International Symposium on Software Testing and Analysis)
   - 主催：[ACM](https://www.acm.org/) (Association for Computing Machinery)
-  - 対象：研究者、企業の実務者
 - ICST (International Conference on Software Testing, Verification and Validation)
   - 主催：[IEEE](https://www.ieee.org/) (The institute of Electrical and Electronics Engineers)
-  - 対象：研究者、エンジニア、企業の実務者
+- [QRS](http://paris.utdallas.edu/qrs18/) (International Conference on Software Quality, Reliability & Securiy)
+  - 主催：[IEEE](https://www.ieee.org/) (The institute of Electrical and Electronics Engineers)
+
+## ビジネス・実務系
+
 - [STAREAST](https://stareast.techwell.com/), [STARWEST](https://starwest.techwell.com/) (Software Testing Analysis & Review Conference)
   - 主催：[TechWell](https://www.techwell.com/)
-  - 対象：コンサルタント、実務者
 - [CAST](https://www.associationforsoftwaretesting.org/conference/) (Conference of the Association for Software Testing)
   - 主催：[AST](https://www.associationforsoftwaretesting.org/about/) (The Association for Software Testing)
-  - 対象：コンサルタント、実務者
 - [GATC](https://developers.google.com/google-test-automation-conference/) (Google Test Automation Conference)
   - 主催：[Google](https://google.com)
-  - 対象：研究者、エンジニア
 - [Agile Testing Days](https://agiletestingdays.com/)
   - 主催：[trendig technology services GmbH](https://trendig.com/)
-  - 対象：実務者
 - [Agile Testing Days USA](https://agiletestingdays.us/)
   - 主催：[trendig technology services Gmbh](https://trendig.com/) && [TechWell](https://www.techwell.com/)
-  - 対象：実務者
 - [TestBash Conference](https://www.ministryoftesting.com/testbash)
   - 主催：[Ministry of Testing](https://www.ministryoftesting.com/)
-  - 対象：エンジニア、企業の実務者
 - [Selenium Conference](https://www.seleniumconf.com/)
   - 主催：N/A
-  - 対象：エンジニア
+- [Automation Gulid](https://automationguild.com/)
+  - 主催：[TestTalks](https://joecolantonio.com/testtalks/)
+- [SourceCon](https://saucecon.com/)
+  - 主催：[Sauce Labs](https://saucelabs.com/)
+
+## 参考資料
+
+- [世界のソフトウェアテストの会議 (JaSST 2018 東京)](https://www.slideshare.net/Bugler/jasst-2018)
+- [Software Testing Conferences 2018-2019](http://www.softwaretestingmagazine.com/software-testing-conferences/)
