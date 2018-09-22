@@ -7,6 +7,8 @@ tags  = ["translation", "nodejs"]
 categories = ["development"]
 +++
 
+Rod Vagg 氏によって書かれた "Essential Steps: Long Term Support for Node.js" の翻訳記事です。ここでは Node.js のリリースフローについて書かれています。本番アプリケーションで Node.js を使っている人は理解していたほうがいいと思います。
+
 <!--more-->
 
 > Translation Note 📝
