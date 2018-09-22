@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" class="mdc-typography">
+  {{- partial "head.html" . -}}
+  <body>
+    {{- partial "header.html" . -}}
+    <main class="layout-main">
+      {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+
+    {{ if .Site.Params.enableGoogleAnalytics }}
+      {{- template "_internal/google_analytics_async.html" . -}}
+    {{ end }}
+
+    {{- partial "js.html" -}}
+  </body>
+</html>

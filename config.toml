@@ -1,10 +1,10 @@
 baseURL = "https://blog.samyamashita.com/"
 languageCode = "en-us"
-title = "console.log(inMyHead)"
-theme = "cactus-plus"
+title = "sam yamashita"
+theme = "mine"
 googleAnalytics = "UA-79191761-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage=false
+hasCJKLanguage=true
 
 [Params]
 Author="Sam Yamashita"
@@ -21,7 +21,6 @@ enableSummary = false
 useDescriptionReplaceSummary = false
 
 enableGoogleAnalytics = true
-enableBaiduAnalytics = false
 
 enableTwitterCard = true
 # The url for twitter card image, default is avatar.png in static/images directory

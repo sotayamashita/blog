@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <div class="layout-container">
+    <section class="mdc-layout-grid">
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+      {{ range $paginator.Pages }}
+      <!-- article -->
+      <article class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="mdc-typography--subtitle1 text-monospace" pubdate>
+            {{ .Date.Format "2006/01/02" }}
+          </time>
+        </div>
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+          <h2 class="mdc-typography--headline5 m0">{{ .Title | markdownify }}</h2>
+          <div class="mdc-typography--body1 m0 mb-2 content">
+            <p>
+            {{ with .Description }}
+              {{ . | markdownify }}
+            {{ else }}
+              {{ if .Truncated }}
+                {{ .Summary | markdownify }}
+              {{ end }}
+            {{ end }}
+            </p>
+          </div>
+          <a href="{{.RelPermalink}}" class="btn">read more</a>
+        </div>
+      </article>
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
+
+
+

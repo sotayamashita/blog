@@ -1,0 +1,75 @@
+.content h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.83em 0;
+}
+
+.content h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 1.75rem 0;
+}
+
+.content p {
+    margin: 1.75rem 0;
+}
+
+.content ul,
+.content ol {
+    display: block;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 1.75rem 0;
+
+    & ul {
+        margin: .75rem 0;
+        list-style-type: square;
+    }
+}
+
+.content ol {
+    list-style-type: decimal;
+}
+
+.content li {
+    display: list-item;
+    padding-left: 0;
+}
+
+.content blockquote {
+    margin: 1.75rem 0;
+    padding-left: 10px;
+    border-left: 5px solid #f0f0f0;
+}
+
+.content pre {
+    margin: 1.75rem 0;
+    white-space: pre;
+    font-size: 11px;
+    word-wrap: break-word;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    padding: 16px;
+    padding-bottom: 14px;
+    display: block;
+    color: #808080;
+    background: #fff;
+    border: none;
+    box-shadow: inset 0 0 0 1px rgb(234, 234, 234);
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.content hr {
+    border: 0;
+    height: 1px;
+    display: block;
+    background-color: #e2e2e2;
+    margin: 1.75rem 0;
+}
