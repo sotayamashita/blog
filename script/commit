@@ -1,7 +1,0 @@
-#!/bin/bash
-
-main () {
-  git add . && git commit -m "$(Date)" && git push
-}
-
-main "$@"
