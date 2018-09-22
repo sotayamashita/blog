@@ -1585,3 +1585,7 @@ a:hover, a:active, a:focus {
 .pb-1rem {
   padding-bottom: 1rem;
 }
+
+.mb-8 {
+  margin-bottom: 32px;
+}

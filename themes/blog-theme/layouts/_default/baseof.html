@@ -8,10 +8,7 @@
     </main>
     {{- partial "footer.html" . -}}
 
-    {{ if .Site.Params.enableGoogleAnalytics }}
-      {{- template "_internal/google_analytics_async.html" . -}}
-    {{ end }}
-
+    {{- template "_internal/google_analytics_async.html" . -}}
     {{- partial "js.html" -}}
   </body>
 </html>

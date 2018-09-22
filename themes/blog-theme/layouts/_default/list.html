@@ -4,7 +4,7 @@
       {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
       {{ range $paginator.Pages }}
       <!-- article -->
-      <article class="mdc-layout-grid__inner">
+      <article class="mdc-layout-grid__inner mb-8">
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
           <time datetime="{{ .Date.Format "2006-01-02" }}" class="mdc-typography--subtitle1 text-monospace" pubdate>
             {{ .Date.Format "2006/01/02" }}
@@ -30,6 +30,3 @@
     </section>
   </div>
 {{ end }}
-
-
-
