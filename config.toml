@@ -1,37 +1,28 @@
+# Hostname (and path) to the root
 baseURL = "https://blog.samyamashita.com/"
-languageCode = "en-us"
+
+# Site title.
 title = "sam yamashita"
-theme = "mine"
-googleAnalytics = "UA-79191761-1"
+
+# Theme to use
+theme = "blog-theme"
+
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage=true
+hasCJKLanguage = true
+
+# Use Google Analytics
+# See: https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics = "UA-79191761-1"
+
+# Enable Emoji emoticons support for page content;
+enableEmoji   = true
+
+# Enable .GitInfo object for each page
+enableGitInfo = true
 
 [Params]
-Author="Sam Yamashita"
-bio = "Thoughts on development, design and business 🦄"
+Author = "Sam Yamashita"
 
-enableRSS = true
-enableToc = true
 
-enableDisqus = false
-disqusShortname = ""
 
-enableSummary = false
-# Set the value to true if use description in post front matter replace content summary
-useDescriptionReplaceSummary = false
 
-enableGoogleAnalytics = true
-
-enableTwitterCard = true
-# The url for twitter card image, default is avatar.png in static/images directory
-twitterCardImage = ""
-
-# show latest posts in single page
-showLatestPosts = true
-readMore = "Latest posts"
-
-# Share
-enableShare = false
-
-# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-iconFont = "font-awesome"
