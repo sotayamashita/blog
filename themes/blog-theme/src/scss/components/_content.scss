@@ -985,6 +985,14 @@ body {
   width: calc(100% + 64px);
 }
 
+.typeset img.float-left {
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
 @media screen and (max-width: 1151px) {
   .typeset img {
     margin-left: 0;
