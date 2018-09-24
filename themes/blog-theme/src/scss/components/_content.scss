@@ -73,3 +73,15 @@
     background-color: #e2e2e2;
     margin: 1.75rem 0;
 }
+
+.content img {
+  width: calc(100% + 64px);
+  margin-left: -2rem;
+}
+
+@media screen and (max-width: 1151px) {
+    .content img {
+      width: 100%;
+      margin-left: 0;
+    }
+}

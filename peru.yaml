@@ -3,4 +3,4 @@ imports:
 
 git module blog_theme:
     url: git@github.com:sotayamashita/blog-theme.git
-    rev: bb2f5064b9fd7f4e60d6089d357ea91a44e9e959
+    rev: 0990dc637c5c50f77c6a761e40217f5d4fb12d86
