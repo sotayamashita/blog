@@ -6,15 +6,11 @@ date  = "2017-04-27T22:15:44+09:00"
 tags  = ["translation", "nodejs"]
 categories = ["development"]
 +++
-
 Rod Vagg 氏によって書かれた "Essential Steps: Long Term Support for Node.js" の翻訳記事です。ここでは Node.js のリリースフローについて書かれています。本番アプリケーションで Node.js を使っている人は理解していたほうがいいと思います。
-
 <!--more-->
 
-> Translation Note 📝
-
-> [Rod Vagg](Essential Steps: Long Term Support for Node.js) 氏が “[Essential Steps: Long Term Support for Node.js](Essential Steps: Long Term Support for Node.js)” というタイトルで Node.js の今後のリリーススケジュールについて説明していました。Node.js を現在本番環境で使っている人や今後使ってみたいと考えてる人ならそのリリーススケジュールを理解しておくことは重要だと思うので、[著者の Rod Vagg 氏に許可を頂いて翻訳させて頂きました。](https://twitter.com/rvagg/status/825644128071397376)何か間違いや分かりにくいところ、より良くするための助言などありましたら気軽に [@sota0805](https://twitter.com/sota0805) までコメントお願いします。翻訳の際にいつも相談にのってくださる **Node.js 日本ユーザグループ** の方々に感謝しています。😁
-
+> Translation Note 📝<br><br>
+> [Rod Vagg](Essential Steps: Long Term Support for Node.js) 氏が “[Essential Steps: Long Term Support for Node.js](Essential Steps: Long Term Support for Node.js)” というタイトルで Node.js の今後のリリーススケジュールについて説明していました。Node.js を現在本番環境で使っている人や今後使ってみたいと考えてる人ならそのリリーススケジュールを理解しておくことは重要だと思うので、[著者の Rod Vagg 氏に許可を頂いて翻訳させて頂きました。](https://twitter.com/rvagg/status/825644128071397376)何か間違いや分かりにくいところ、より良くするための助言などありましたら気軽に [@sota0805](https://twitter.com/sota0805) までコメントお願いします。翻訳の際にいつも相談にのってくださる **Node.js 日本ユーザグループ** の方々に感謝しています。😁 <br><br>
 > （以下、2015年06月24日に Rod Vagg 氏によって書かれた “Essential Steps: Long Term Support for Node.js” の翻訳です。）
 
 ---
