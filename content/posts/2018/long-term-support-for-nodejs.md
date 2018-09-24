@@ -6,7 +6,7 @@ date  = "2017-04-27T22:15:44+09:00"
 tags  = ["translation", "nodejs"]
 categories = ["development"]
 +++
-Rod Vagg 氏によって書かれた "Essential Steps: Long Term Support for Node.js" の翻訳記事です。ここでは Node.js のリリースフローについて書かれています。本番アプリケーションで Node.js を使っている人は理解していたほうがいいと思います。
+Rod Vagg 氏によって書かれた "Essential Steps: Long Term Support for Node.js" の翻訳記事です。ここでは Node.js のリリースフローについて詳しく書かれています。
 <!--more-->
 
 > Translation Note 📝<br><br>

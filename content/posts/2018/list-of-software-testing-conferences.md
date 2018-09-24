@@ -30,7 +30,7 @@ categories = ["development"]
 - [Agile Testing Days](https://agiletestingdays.com/)
     - 主催：[trendig technology services GmbH](https://trendig.com/)
 - [Agile Testing Days USA](https://agiletestingdays.us/)
-    - 主催：[trendig technology services Gmbh](https://trendig.com/) && [TechWell](https://www.techwell.com/)
+    - 主催：[trendig technology services Gmbh](https://trendig.com/) と [TechWell](https://www.techwell.com/)
 - [TestBash Conference](https://www.ministryoftesting.com/testbash)
     - 主催：[Ministry of Testing](https://www.ministryoftesting.com/)
 - [Selenium Conference](https://www.seleniumconf.com/)
