@@ -1,6 +1,7 @@
 .post-date {
   @extend .text-monospace;
   color: #5f6368;
-  font-family: 1rem;
+  font-size: 1rem;
   display: block;
+  line-height: 15px;
 }
