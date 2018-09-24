@@ -2033,7 +2033,6 @@ body {
 .typeset ol li ul {
   margin-bottom: 1rem;
   margin-left: 2rem;
-  padding-top: 1rem;
 }
 
 .typeset ol {
@@ -2046,7 +2045,6 @@ body {
 
 .typeset ol li::before {
   content: counter(top-level) ".";
-  -webkit-font-feature-settings: "lnum", "tnum";
   font-feature-settings: "lnum", "tnum";
   margin-left: -3rem;
   position: absolute;

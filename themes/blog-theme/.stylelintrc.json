@@ -1,5 +1,8 @@
 {
   "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "selector-max-compound-selectors": null
+  },
   "ignoreFiles": [
     "src/scss/generic/_sanitize.scss"
   ]
