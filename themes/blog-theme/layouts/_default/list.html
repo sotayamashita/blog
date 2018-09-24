@@ -6,13 +6,13 @@
       <!-- article -->
       <article class="mdc-layout-grid__inner mb-8">
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
-          <time datetime="{{ .Date.Format "2006-01-02" }}" class="mdc-typography--subtitle1 text-monospace" pubdate>
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="mdc-typography--subtitle1 post-date" pubdate>
             {{ .Date.Format "2006/01/02" }}
           </time>
         </div>
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
-          <h2 class="mdc-typography--headline5 m0">{{ .Title | markdownify }}</h2>
-          <div class="mdc-typography--body1 m0 mb-2 content">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 typeset">
+          <h3 class="mt-0 pt-0">{{ .Title | markdownify }}</h3>
+          <div class="m0 mb-2 content">
             <p>
             {{ with .Description }}
               {{ . | markdownify }}

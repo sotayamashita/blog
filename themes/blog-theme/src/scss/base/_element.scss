@@ -1,20 +1,43 @@
+html {
+  font-size: 75%;
+}
+
+@media screen and (min-width: 40em) {
+  html {
+    font-size: 87.5%; }
+}
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 93.75%; }
+}
+@media screen and (min-width: 64em) {
+  html {
+    font-size: 106.25%; }
+}
+@media screen and (min-width: 100em) {
+  html {
+    font-size: 118.75%; }
+}
+
 body {
-    color: #212121;
+  color: #424242;
+  font-size: 18px;
+  line-height: 2rem;
 }
 
 a {
-    text-decoration: none;
-    color: #4285f4;
-    transition: color .1s, background-color .1s;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, lighten(#4285f4, 20%) 50%);
-    background-position: 0 93%;
-    background-repeat: repeat-x;
-    background-size: 100% 0.15rem;
-    text-shadow: 0.1rem 0 #fff, 0.15rem 0 #fff, -0.1rem 0 #fff, -0.15rem 0 #fff;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, lighten(#4285f4, 20%) 50%);
+  background-position: 0 93%;
+  background-repeat: repeat-x;
+  background-size: 100% 0.15rem;
+  color: #4285f4;
+  text-decoration: none;
+  text-shadow: 0.1rem 0 #fff, 0.15rem 0 #fff, -0.1rem 0 #fff, -0.15rem 0 #fff;
+  transition: color 0.1s, background-color 0.1s;
 
-    &:hover,
-    &:active,
-    &:focus {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, darken(#4285f4, 20%) 50%);
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, darken(#4285f4, 20%) 50%);
+  }
 }

@@ -3,13 +3,13 @@
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
-          <time datetime="{{ .Date.Format "2006-01-02" }}" class="mdc-typography--subtitle1 text-monospace" pubdate>
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="mdc-typography--subtitle1 post-date" pubdate>
             {{ .Date.Format "2006/01/02" }}
           </time>
         </div>
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
-          <h1 class="mdc-typography--headline5 m0">{{ .Title | markdownify }}</h1>
-          <div class="mdc-typography--body1 mb-25 content">{{ .Content }}</div>
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 typeset">
+          <h1 class="mt-0 pt-0">{{ .Title | markdownify }}</h1>
+          {{ .Content }}
         </div>
       </div>
     </div>

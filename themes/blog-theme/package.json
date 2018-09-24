@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "webpack --mode=development --watch"
+    "watch": "webpack --mode=development --watch",
+    "lint:style": "stylelint 'src/**/*.scss'; exit 0",
+    "lint:style:fix": "stylelint 'src/**/*.scss' --fix; exit 0"
   },
   "devDependencies": {
     "@material/card": "^0.39.3",
@@ -19,6 +21,9 @@
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-sass-guidelines": "^5.2.0",
+    "stylelint-scss": "^3.3.1",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0"
   }

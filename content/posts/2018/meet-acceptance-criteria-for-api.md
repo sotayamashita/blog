@@ -1,5 +1,4 @@
 ---
-type: post
 draft: true
 slug:  ""
 date:  2018-09-12T15:54:06+09:00

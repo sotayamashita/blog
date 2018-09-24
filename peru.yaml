@@ -1,6 +1,0 @@
-imports:
-    blog_theme: themes/blog-theme
-
-git module blog_theme:
-    url: git@github.com:sotayamashita/blog-theme.git
-    rev: 0990dc637c5c50f77c6a761e40217f5d4fb12d86

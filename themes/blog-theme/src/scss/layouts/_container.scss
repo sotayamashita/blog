@@ -1,52 +1,52 @@
 .layout-container {
-    width: 100%;
-    margin: 0 auto
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 320px) {
-    .layout-container {
-        max-width: 320px
-    }
+  .layout-container {
+    max-width: 320px;
+  }
 }
 
 @media screen and (max-width: 590px) {
-    .layout-container {
-        max-width: 590px
-    }
+  .layout-container {
+    max-width: 590px;
+  }
 }
 
 @media screen and (min-width: 591px) and (max-width: 792px) {
-    .layout-container {
-        max-width: 792px
-    }
+  .layout-container {
+    max-width: 792px;
+  }
 }
 
 @media screen and (min-width: 793px) and (max-width: 1150px) {
-    .layout-container {
-        max-width: 1150px
-    }
+  .layout-container {
+    max-width: 1150px;
+  }
 }
 
 @media screen and (min-width: 1151px) and (max-width: 1280px) {
-    .layout-container {
-        max-width: 1280px
-    }
+  .layout-container {
+    max-width: 1280px;
+  }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
-    .layout-container {
-        max-width: 1280px
-    }
+  .layout-container {
+    max-width: 1280px;
+  }
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1900px) {
-    .layout-container {
-        max-width: 1280px
-    }
+  .layout-container {
+    max-width: 1280px;
+  }
 }
 
 @media screen and (min-width: 1901px) {
-    .layout-container {
-        max-width: 1280px
-    }
+  .layout-container {
+    max-width: 1280px;
+  }
 }
