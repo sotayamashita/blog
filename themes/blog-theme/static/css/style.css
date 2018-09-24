@@ -1316,8 +1316,6 @@ a:hover, a:active, a:focus {
 .post-date {
   color: #5f6368;
   font-size: 1rem;
-  display: block;
-  line-height: 15px;
 }
 
 html,
