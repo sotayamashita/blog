@@ -1582,6 +1582,14 @@ body a:hover, body a:active, body a:focus {
   height: auto;
 }
 
+.post-single-content img.float-left {
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
 .navbar-brand {
   padding: 0 5px;
   color: #fff !important;
