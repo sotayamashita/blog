@@ -6,7 +6,7 @@ date  = "2016-01-09T18:27:48+09:00"
 tags  = ["translation", "javascript"]
 categories = ["development"]
 +++
-Lin Clark] 氏によって書かれた “A cartoon guide to Flux” の翻訳記事です。ここでは Flux についてわかりやすく図で説明されています。
+Lin Clark 氏によって書かれた “A cartoon guide to Flux” の翻訳記事です。ここでは Flux についてわかりやすく図で説明されています。
 <!--more-->
 
 > Translation Note 📝<br><br>

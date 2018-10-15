@@ -1,31 +1,38 @@
 {{ define "main" }}
   <div class="layout-container">
     <section class="mdc-layout-grid">
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-      {{ range $paginator.Pages }}
+      {{ range (where .Data.Pages "Type" "post").GroupByDate "Jan 2006" "desc" }}
+      <h2 class="post-section-key">{{ .Key }}</h2>
+      {{ range .Pages }}
       <!-- article -->
-      <article class="mdc-layout-grid__inner mb-8">
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
-          <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-date" pubdate>
-            {{ .Date.Format "2006/01/02" }}
-          </time>
-        </div>
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 typeset">
-          <h3 class="mt-0 pt-0">{{ .Title | markdownify }}</h3>
-          <div class="m0 mb-2 content">
-            <p>
-            {{ with .Description }}
-              {{ . | markdownify }}
-            {{ else }}
-              {{ if .Truncated }}
-                {{ .Summary | markdownify }}
+      <article class="mdc-layout-grid__inner">
+        <a href="{{.RelPermalink}}" class="mb-10 mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+          <div class="">
+            <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-pubdate">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ range .Params.categories }}
+              {{ if eq . "development" }}
+                <span class="post-category post-category--development">⚒️ dev</span>
+              {{ end }}
+              {{ if eq . "business" }}
+                <span class="post-category post-category--business">💵 biz</span>
               {{ end }}
             {{ end }}
-            </p>
           </div>
-          <a href="{{.RelPermalink}}" class="btn">read more</a>
-        </div>
+          <div class="">
+            <h3 class="post-list-title">{{ .Title | markdownify }}</h3>
+            <div class="post-list-desc">
+              {{ with .Description }}
+                {{ . | markdownify | plainify | htmlUnescape }}
+              {{ else }}
+                {{ if .Truncated }}
+                  {{ .Summary | markdownify | plainify | htmlUnescape }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </a>
       </article>
+      {{ end }}
       {{ end }}
     </section>
   </div>

@@ -1,5 +1,111 @@
-.post-date {
+.post-section-key {
+  @extend .mdc-typography--headline5;
+  @extend .mt-0;
+  @extend .mb-4;
+  line-height: 1.33349;
+  font-weight: 600;
+  letter-spacing: .009em;
+}
+
+.post-pubdate {
+  @extend .mdc-typography--caption;
   @extend .text-monospace;
-  color: #5f6368;
+  position: relative;
+  letter-spacing: -.01em;
+  color: #888;
+  line-height: 16.8px;
+  width: 90px;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.post-category {
+  @extend .mdc-typography--caption;
+  @extend .font-weight-bold;
+  @extend .text-uppercase;
+  letter-spacing: -.01em;
+  display: inline-block;
+  line-height: 16.8px;
+}
+.post-category--development {
+  color: #5CBC02;
+}
+.post-category--business {
+  color: #609BFE;
+}
+
+.post-list-title {
+  @extend .m0;
+  letter-spacing: -.022em;
   font-size: 1rem;
+  line-height: 1.47059;
+  font-weight: 600;
+}
+
+.post-list-desc {
+  letter-spacing: -.022em;
+  font-size: 1rem;
+  line-height: 1.47059;
+  font-weight: 400;
+  color: #333;
+}
+
+.post-single-title {
+  margin: 36px 0 48px
+}
+
+.post-single-content h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+.post-single-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.83em 0;
+}
+.post-single-content h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1.75rem 0;
+}
+.post-single-content p {
+  margin: 1.75rem 0;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+}
+.post-single-content ul,
+.post-single-content ol {
+  display: block;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 1.75rem 0;
+  & ul {
+    margin: .75rem 0;
+    list-style-type: square;
+  }
+}
+.post-single-content ol {
+  list-style-type: decimal;
+}
+.post-single-content li {
+  display: list-item;
+  padding-left: 0;
+}
+.post-single-content blockquote {
+  margin: 1.75rem 0;
+  padding-left: 10px;
+  border-left: 5px solid #f0f0f0;
+}
+.post-single-content pre {
+  margin: 1.75rem 0;
+  white-space: pre;
+}
+
+.post-single-content hr {
+  border: 0;
+  height: 1px;
+  display: block;
+  background-color: #e2e2e2;
+  margin: 1.75rem 0;
 }

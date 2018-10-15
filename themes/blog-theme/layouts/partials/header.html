@@ -1,10 +1,12 @@
-<header class="mb-10">
+<header class="header">
   <div class="layout-container">
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
-        <nav class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-          <a href="{{ .Site.BaseURL }}" class="navbar-brand">{{ .Site.Title }}</a>
-        </nav>
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+          <nav class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+            <a href="{{ .Site.BaseURL }}" class="navbar-brand mdc-typography--headline5">{{ .Site.Title }}</a>
+          </nav>
+        </div>
       </div>
     </div>
   </div>

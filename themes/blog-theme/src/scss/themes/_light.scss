@@ -1,0 +1,26 @@
+body.theme-light {
+  background: #ffffff;
+  color: #414141;
+}
+
+body.theme-light h1,
+body.theme-light h2,
+body.theme-light h3,
+body.theme-light h4,
+body.theme-light h5,
+body.theme-light h6 {
+  color: #111;
+}
+
+body.theme-light a {
+  color: #ec5381;
+  text-decoration: none;
+  transition: color 0.1s, background-color 0.1s;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #bd4368;
+    text-decoration: none;
+  }
+}

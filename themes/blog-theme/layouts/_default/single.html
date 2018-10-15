@@ -2,14 +2,22 @@
   <div class="layout-container">
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
-          <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-date" pubdate>
-            {{ .Date.Format "2006/01/02" }}
-          </time>
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-pubdate">{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{ range .Params.categories }}
+            {{ if eq . "development" }}
+              <span class="post-category post-category--development">⚒️ dev</span>
+            {{ end }}
+            {{ if eq . "business" }}
+              <span class="post-category post-category--business">💵 biz</span>
+            {{ end }}
+          {{ end }}
         </div>
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 typeset">
-          <h1 class="mt-0 pt-0">{{ .Title | markdownify }}</h1>
-          {{ .Content }}
+      </div>
+      <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+          <h1 class="post-single-title">{{ .Title | markdownify }}</h1>
+          <div class="post-single-content">{{ .Content }}</div>
         </div>
       </div>
     </div>
