@@ -1465,7 +1465,6 @@ body a:hover, body a:active, body a:focus {
 
 .post-section-key {
   line-height: 1.33349;
-  font-weight: 600;
   letter-spacing: 0.009em;
 }
 
@@ -1498,14 +1497,13 @@ body a:hover, body a:active, body a:focus {
   letter-spacing: -0.022em;
   font-size: 1rem;
   line-height: 1.47059;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .post-list-desc {
   letter-spacing: -0.022em;
   font-size: 1rem;
   line-height: 1.47059;
-  font-weight: 400;
   color: #333;
 }
 
