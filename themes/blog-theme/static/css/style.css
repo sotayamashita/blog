@@ -1494,6 +1494,7 @@ body a:hover, body a:active, body a:focus {
 }
 
 .post-list-title {
+  margin: 4px 0;
   letter-spacing: -0.022em;
   font-size: 1rem;
   line-height: 1.47059;
@@ -1634,7 +1635,7 @@ body.theme-light a:hover, body.theme-light a:active, body.theme-light a:focus {
   font-family: "Roboto Mono";
 }
 
-.m0, .post-list-title {
+.m0 {
   margin: 0;
 }
 
