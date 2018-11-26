@@ -168,6 +168,8 @@ h2 {
     margin-top: 10px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.008em;
 }
 
 nav.main-nav {
@@ -336,6 +338,7 @@ em, i {
     margin-bottom: 20px;
     color: #222;
     font: 300 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -.003em;
 }
 
 .post h2 {
@@ -501,6 +504,7 @@ Post List
     color: #333;
     display: block;
     font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+    letter-spacing: .011em;
 }
 
 #post-list .dates {
@@ -820,6 +824,7 @@ h2.month {
 
 .archive .post-link {
     color: #8a8a8a;
+    letter-spacing: .011em;
 }
 
 .archive .post-item:hover {
