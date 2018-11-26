@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 type  = "post"
 slug  = "confirm-to-meet-acceptance-criteria-for-api"
 title = "API の要件を満たせているか確認する方法"

@@ -1,8 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "start": "hugo server -D",
-    "peru:sync" : "peru sync",
-    "peru:update": "peru reup"
+    "start": "hugo server -D"
   }
 }

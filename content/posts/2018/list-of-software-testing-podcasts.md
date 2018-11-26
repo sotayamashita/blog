@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 slug:  "list-of-software-testing-podcasts"
 date:  2018-09-08T15:12:45+09:00
 title: "Software Testing 主要 Podcasts 一覧"
