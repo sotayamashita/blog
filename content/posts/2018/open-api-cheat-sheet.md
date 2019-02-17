@@ -8,6 +8,7 @@ categories:
 - business
 tags:
 isCJKLanguage: true
+type: "post"
 ---
 
 ## リクエスト

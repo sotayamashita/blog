@@ -1,20 +1,14 @@
-baseURL = "/"
-languageCode = "en-jp"
-theme = "hello-friend"
-enableEmoji = true
-enableGitInfo = true
-googleAnalytics = "UA-79191761-1"
-hasCJKLanguage = true
+baseurl = "/"
+languageCode = "en-us"
+theme = "hugo-theme-hello-friend"
+paginate = 5
 
-[Params]
+[params]
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "post"
   # "light" or "dark"
-  defaultTheme = "light"
-  showMenuItems = 1
-
-  enableDisqus = true
-  disqusShortname="samyamashita"
+  defaultTheme = "dark"
+  showMenuItems = 2
 
 [languages]
   [languages.en]
@@ -25,16 +19,24 @@ hasCJKLanguage = true
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
-    comments = "Comments"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
+
+    [languages.en.params.logo]
+      logoText = "hello friend"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
-
-    [languages.en.logo]
-      logoText = "Sam Yamashita"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"

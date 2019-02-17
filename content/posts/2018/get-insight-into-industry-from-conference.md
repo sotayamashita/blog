@@ -9,6 +9,7 @@ categories:
 tags:
 - software-testing
 isCJKLanguage: true
+type: "post"
 ---
 
 ## はじめに

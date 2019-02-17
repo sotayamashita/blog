@@ -9,6 +9,7 @@ tags:
 - difference-btw
 - rails
 isCJKLanguage: true
+type: "post"
 ---
 
 fuga

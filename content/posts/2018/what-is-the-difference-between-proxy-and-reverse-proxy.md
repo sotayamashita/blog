@@ -9,6 +9,7 @@ tags:
 - difference-btw
 - network
 isCJKLanguage: true
+type: "post"
 ---
 
 ## プロキシとは

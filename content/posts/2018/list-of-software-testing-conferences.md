@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 type  = "post"
 slug  = "list-of-software-testing-conferences"
 title = "Software Testing 主要カンファレンス一覧"

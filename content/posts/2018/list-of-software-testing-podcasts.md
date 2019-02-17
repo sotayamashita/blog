@@ -10,6 +10,7 @@ tags:
 - podcast
 - awesome
 isCJKLanguage: true
+type: "post"
 ---
 
 - [Testing Podcast](https://testingpodcast.com/)
